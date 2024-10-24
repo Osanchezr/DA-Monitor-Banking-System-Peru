@@ -58,7 +58,7 @@ Instala todas las dependencias con el siguiente comando:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## 📝 Descripción del Proceso
 
 ### 1. Extracción de Datos
