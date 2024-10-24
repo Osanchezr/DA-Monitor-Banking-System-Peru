@@ -12,6 +12,7 @@ Este proyecto analiza el sector bancario en Perú mediante indicadores clave com
 Se aplicaron técnicas como **K-Means** (distancia euclidiana y DTW) y **clustering basado en formas**, evaluando cada modelo con el **índice de silueta** para medir la cohesión y separación de los clústeres.
 
 Los datos fueron extraídos mediante **web scraping** desde la SBS, cubriendo un período de **9 años** (2015-2024), permitiendo identificar patrones de comportamiento diferencial y posibles alertas de riesgo.
+
 ---
 
 ## 📊 Dataset
@@ -66,11 +67,15 @@ Se utilizó Selenium para automatizar el proceso de descarga de los archivos Exc
 - Entidad
 - Valor del Indicador
 
+![Data](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/data_image.JPG)
+
 ### 2. Transformación y Limpieza de Datos
 Los archivos Excel originales fueron convertidos a DataFrames, eliminando filas y columnas innecesarias, estandarizando los nombres de las entidades y formateando las fechas. También se excluyeron entidades con datos incompletos o valores extremos debido a su reciente entrada en el mercado, como Bank of China y B. BCI Perú.
 
 ### 3. Exploración de Datos
 Se verificó la ausencia de valores nulos y duplicados, se analizaron outliers y se identificaron comportamientos atípicos en algunas entidades. Se realizaron histogramas y gráficos de series temporales para visualizar la evolución de los indicadores.
+
+![Histogramas](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/histogramas.png)
 
 ### 4. Modelado
 Se probaron tres enfoques de clustering no supervisado:
@@ -84,9 +89,15 @@ Cada modelo fue evaluado con el índice de silueta para identificar el número �
 ### 5. Evaluación de Resultados
 Se obtuvieron los siguientes resultados clave:
 
+![mejoresmodelos](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/result_mejor_modelo.JPG)
+
 - **K-Means (distancia euclidiana)** fue el modelo que mejor se adaptó a la mayoría de los indicadores.
 - Entidades como **B. Alfin** y **B. ICBC** aparecieron consistentemente en clústeres minoritarios debido a fluctuaciones extremas en sus indicadores históricos.
 - El índice de silueta mostró una buena cohesión y separación entre clústeres, con excepción del indicador *Pasivo Total / Capital Social y Reservas*.
+
+![grafico](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/resul_evol.JPG)
+
+![grafico](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/resul_evol2.JPG)
 
 ---
 
