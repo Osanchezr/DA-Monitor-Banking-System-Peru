@@ -1,0 +1,21 @@
+Indicador,Modelo,Número de Clusters,Configuración,Silhouette Score
+Ratio de Capital Global,K-Means,2,RobustScaler,0.8080936285134932
+Pasivo Total / Capital Social y Reservas,K-Means,2,StandardScaler,0.39901357555938166
+Créditos Atrasados / Créditos Directos,DWT,2,RobustScaler,0.620826362142179
+Créditos Atrasados con más de 90 días de atraso / Créditos Directos,DWT,2,Sin escalado,0.6014452809194044
+Créditos Refinanciados y Reestructurados / Créditos Directos,DWT,2,Sin escalado,0.6427694699672848
+Créditos Atrasados MN / Créditos Directos MN,K-Means,2,Sin escalado,0.7714020300186425
+Créditos Atrasados ME / Créditos Directos ME,K-Means,2,Sin escalado,0.7835265950095814
+Provisiones / Créditos Atrasados,K-Means,2,StandardScaler,0.6399281089617038
+Gastos de Administración Anualizados / Activo Productivo Promedio,K-Means,2,Sin escalado,0.7963348095661801
+Gastos de Operación / Margen Financiero Total,DWT,2,Sin escalado,0.8423472520184898
+Ingresos Financieros / Ingresos Totales,DWT,2,Sin escalado,0.6809761799695875
+Ingresos Financieros Anualizados / Activo Productivo Promedio,K-Means,3,Sin escalado,0.7063286941096195
+Créditos Directos / Personal,K-Means,2,RobustScaler,0.7884960908784308
+Depósitos / Número de Oficinas,K-Means,2,StandardScaler,0.9001024100026247
+Utilidad Neta Anualizada / Patrimonio Promedio,K-Means,2,Sin escalado,0.8370641701155636
+Utilidad Neta Anualizada / Activo Promedio,K-Means,2,RobustScaler,0.7373283209027757
+Ratio de Liquidez MN,K-Means,2,RobustScaler,0.8490557511542263
+Ratio de Liquidez ME,K-Means,2,RobustScaler,0.8795808320518382
+Caja y Bancos MN / Obligaciones a la Vista MN,K-Means,2,Sin escalado,0.9020890277674017
+Caja y Bancos en ME / Obligaciones a la Vista ME,K-Means,2,RobustScaler,0.8560477790725571

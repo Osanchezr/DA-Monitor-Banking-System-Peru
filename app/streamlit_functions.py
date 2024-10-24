@@ -1,7 +1,11 @@
+
 import pandas as pd
 import numpy as np
 import plotly.express as px
 import streamlit as st
+import plotly.graph_objects as go
+import seaborn as sns
+
 
 # Función para cargar los datos
 @st.cache_data
@@ -93,3 +97,105 @@ def grafico_evolutivo(df, indicador):
                   height=500,  # Aumentar la altura
                   width=3000)  # Aumentar el ancho
     return fig
+
+# Función para graficar resultados
+def graficar_resultados(df_kpi_bank, resultado_combinado, nuevos_bancos, indicadores_deseados):
+    """
+    Genera gráficos interactivos para visualizar la evolución de los indicadores seleccionados
+    por entidad, con coloración según los clusters asignados.
+    
+    Parámetros:
+    - df_kpi_bank (pd.DataFrame): DataFrame con los KPIs bancarios, incluyendo 'Fecha', 'Entidad', 'Indicador', y 'Valor'.
+    - resultado_combinado (pd.DataFrame): DataFrame con la asignación de clusters por entidad e indicador.
+    - nuevos_bancos (list): Lista de entidades (bancos) que se deben excluir del análisis.
+    - indicadores_deseados (list): Lista de indicadores financieros que se desean graficar.
+    
+    El gráfico muestra una línea temporal para cada entidad, y los colores representan los clusters a los que pertenecen.
+    Los gráficos se generan con títulos específicos para cada indicador y son interactivos.
+    """
+    fig = go.Figure()
+
+    for indicador_deseado in indicadores_deseados:
+        # Filtrar solo el indicador deseado
+        df_indicador = df_kpi_bank[df_kpi_bank['Indicador'] == indicador_deseado]
+
+        # Filtrar entidades para excluir los nuevos bancos
+        df_indicador_sin_nuevos = df_indicador[~df_indicador['Entidad'].isin(nuevos_bancos)]
+
+        # Pivotar la tabla para obtener las series de tiempo por entidad
+        df_pivot = df_indicador_sin_nuevos.pivot_table(
+            index='Fecha',
+            columns='Entidad',
+            values='Valor',
+            aggfunc='mean'
+        ).fillna(0)
+
+        # Agregar información de clusters a las entidades
+        clusters = resultado_combinado[['Entidad', indicador_deseado]].set_index('Entidad').to_dict()[indicador_deseado]
+
+        # Obtener los clusters únicos y asignar colores
+        unique_clusters = np.unique(list(clusters.values()))
+        colors = sns.color_palette("hsv", len(unique_clusters))
+        cluster_color_map = {cluster: f'rgb({int(color[0] * 255)}, {int(color[1] * 255)}, {int(color[2] * 255)})' for cluster, color in zip(unique_clusters, colors)}
+
+        # Crear trazas para cada entidad
+        for entidad in df_pivot.columns:
+            if entidad in clusters:
+                cluster = clusters[entidad]
+                color = cluster_color_map[cluster]
+
+                hover_text = [
+                    f'Entidad: {entidad}<br>'
+                    f'Fecha: {df_pivot.index[i].date()}<br>'
+                    f'Valor: {df_pivot[entidad][i]:.2f}'
+                    for i in range(len(df_pivot))
+                ]
+
+                fig.add_trace(go.Scatter(
+                    x=df_pivot.index,
+                    y=df_pivot[entidad],
+                    mode='lines',
+                    name=f'{entidad} (Cluster {cluster})',
+                    line=dict(color=color),
+                    hoverinfo='text',
+                    hovertext=hover_text,
+                    showlegend=True
+                ))
+
+        fig.update_layout(
+            title=f'Evolución de {indicador_deseado} por Entidad (Colores según Cluster)',
+            xaxis_title='Fecha',
+            yaxis_title=indicador_deseado,
+            legend_title='Entidades',
+            hovermode='closest',
+            margin=dict(t=50, b=50),
+            height=400 * len(indicadores_deseados)
+        )
+
+    st.plotly_chart(fig)
+
+
+def pagina_analisis_clusters(df_kpi_bank, resultado_combinado):
+    st.title("Análisis de Clusters")
+
+    # Selección de tipo de indicador
+    tipos_indicadores = df_kpi_bank['Tipo de Indicador'].unique()
+    tipo_indicador_seleccionado = st.selectbox('Selecciona un tipo de indicador', tipos_indicadores)
+
+    # Filtrar indicadores disponibles según el tipo seleccionado
+    indicadores_disponibles = df_kpi_bank[df_kpi_bank['Tipo de Indicador'] == tipo_indicador_seleccionado]['Indicador'].unique()
+    indicador_seleccionado = st.selectbox('Selecciona un indicador', indicadores_disponibles)
+
+    # Validar si el indicador seleccionado tiene clusters disponibles
+    if indicador_seleccionado not in resultado_combinado.columns[1:].tolist():   #df.columns[1:].tolist()
+        st.warning(f"El indicador '{indicador_seleccionado}' no muestra una segmentación notoria.")
+    else:
+        # Filtrar indicadores deseados para graficar
+        indicadores_deseados = [indicador_seleccionado]
+
+        # Obtener la lista de nuevos bancos (puedes ajustar esto según tu lógica)
+        nuevos_bancos = ['B. BCI Perú', 'Bank of China']  # Aquí podrías definir los nuevos bancos si los tienes
+
+        # Llamar a la función para graficar resultados
+        graficar_resultados(df_kpi_bank, resultado_combinado, nuevos_bancos, indicadores_deseados)
+
