@@ -204,51 +204,98 @@ def pagina_analisis_clusters(df_kpi_bank, resultado_combinado):
         
         # Ejemplo de comentarios personalizados
         if indicador_seleccionado == 'Ratio de Capital Global':
-            st.text( """
-            La mayoría de los bancos se agrupan en el Cluster 1, con ratios de capital global relativamente bajos y estables (10-30), 
+            st.text("""La mayoría de los bancos se agrupan en el Cluster 1, con ratios de capital global relativamente bajos y estables (10-30),
             lo que incluye entidades como BBVA Perú, BCP, e Interbank, mostrando una evolución similar en la gestión de su capital.
-
-            En contraste, el Banco ICBC (Cluster 0) tiene un comportamiento atípico, con un ratio de capital mucho más alto (hasta 70) 
+            
+            En contraste, el Banco ICBC (Cluster 0) tiene un comportamiento atípico, con un ratio de capital mucho más alto (hasta 70),
             pero con una tendencia descendente desde 2017, lo que sugiere ajustes significativos en su capitalización.
+            
+            Algunas entidades, como Citibank y Alfin Banco, presentan fluctuaciones dentro del Cluster 1, pero sin desviarse de la tendencia
+            general de estabilidad.""")
 
-            Algunas entidades, como Citibank y Alfin Banco, presentan fluctuaciones dentro del Cluster 1, pero sin desviarse de la tendencia 
-            general de estabilidad.
-            """)
         elif indicador_seleccionado == 'Créditos Atrasados MN / Créditos Directos MN':
-            st.text("En la evolución del ratio Créditos Atrasados MN / Créditos Directos MN, B. ICBC del Cluster 0 muestra una variación marcada en el 2016, por lo cual el modelo lo categorizá solo en un cluster, este comportamiento del indicador en el pasado ya se regularizó actualmente.")
-        
+            st.text("""En la evolución del ratio Créditos Atrasados MN / Créditos Directos MN, B. ICBC del Cluster 0 muestra una
+            variación marcada en el 2016, por lo cual el modelo lo categoriza solo en un cluster. Este comportamiento del 
+            indicador en el pasado ya se regularizó actualmente.""")
+
         elif indicador_seleccionado == 'Créditos Atrasados ME / Créditos Directos ME':
-            st.text("En la evolución del ratio Créditos Atrasados ME / Créditos Directos ME, las entidades del Cluster 0 demuestran una tendencia estable, lo que indica una gestión eficiente de sus préstamos. En contraste, B. Falabella Perú y Mibanco del Cluster 1 presentan una mayor variabilidad en sus ratios, lo que sugiere una posible exposición a riesgos financieros o cambios en sus estrategias. Se recomienda que las entidades del Cluster 0 continúen con sus prácticas actuales, mientras que las del Cluster 1 deben investigar las causas de su fluctuación y ajustar sus estrategias para mejorar la estabilidad en la gestión de créditos en moneda extranjera.")
+            st.text("""En la evolución del ratio Créditos Atrasados ME / Créditos Directos ME, las entidades del Cluster 0 demuestran 
+            una tendencia estable, lo que indica una gestión eficiente de sus préstamos. En contraste, B. Falabella Perú y Mibanco 
+            del Cluster 1 presentan una mayor variabilidad en sus ratios, lo que sugiere una posible exposición a riesgos financieros 
+            o cambios en sus estrategias. Se recomienda que las entidades del Cluster 0 continúen con sus prácticas actuales, 
+            mientras que las del Cluster 1 deben investigar las causas de su fluctuación y ajustar sus estrategias para mejorar 
+            la estabilidad en la gestión de créditos en moneda extranjera.""")
 
         elif indicador_seleccionado == 'Gastos de Administración Anualizados / Activo Productivo Promedio':
-            st.text("En la evolución del ratio Gastos de Administración Anualizados / Activo Productivo Promedio, las entidades del Cluster 0, que incluyen a B. BBVA Perú y B. de Crédito del Perú, presentan una tendencia estable, lo que sugiere una gestión eficiente de sus costos administrativos. Por otro lado, Alfin Banco, del Cluster 1, exhibe una mayor variabilidad en su ratio, lo que podría indicar una exposición a riesgos o cambios en su estrategia. Se recomienda a las entidades del Cluster 0 que mantengan sus prácticas actuales, mientras que Alfin Banco debería investigar las causas de su fluctuación y ajustar sus estrategias para mejorar la gestión de sus costos.")
+            st.text("""En la evolución del ratio Gastos de Administración Anualizados / Activo Productivo Promedio, las entidades del Cluster 0,
+            que incluyen a B. BBVA Perú y B. de Crédito del Perú, presentan una tendencia estable, lo que sugiere una gestión eficiente de sus 
+            costos administrativos. Por otro lado, Alfin Banco, del Cluster 1, exhibe una mayor variabilidad en su ratio, lo que podría indicar
+            una exposición a riesgos o cambios en su estrategia. Se recomienda a las entidades del Cluster 0 que mantengan sus prácticas actuales,
+            mientras que Alfin Banco debería investigar las causas de su fluctuación y ajustar sus estrategias para mejorar la gestión de sus costos.""")
 
-        elif indicador_seleccionado == "Gastos de Operación / Margen Financiero Total":
-            st.text("Banco Alfin, la única entidad en el Cluster 1, ha presentado en el pasado una variación significativa en el indicador de 'Gastos de Operación / Margen Financiero Total', aunque actualmente esta variabilidad se ha regularizado.")
+        elif indicador_seleccionado == 'Gastos de Operación / Margen Financiero Total':
+            st.text("""Banco Alfin, la única entidad en el Cluster 1, ha presentado en el pasado una variación significativa en el indicador 
+            de 'Gastos de Operación / Margen Financiero Total', aunque actualmente esta variabilidad se ha regularizado.""")
 
         elif indicador_seleccionado == 'Ingresos Financieros Anualizados / Activo Productivo Promedio':
-            st.text("En la evolución de Ingresos Financieros Anualizados / Activo Productivo Promedio, el Cluster 0 (B. BBVA Perú, B. de Crédito del Perú, etc.) muestra estabilidad y eficiencia en su gestión de ingresos. El Cluster 1 (B. Falabella Perú, B. Ripley, Mibanco) presenta mayor variabilidad, reflejando diferentes estrategias y niveles de riesgo. Alfin Banco, en el Cluster 2, destaca con uno de los ratios más altos, lo que puede ser positivo, pero también implica un mayor riesgo si no se gestiona adecuadamente. Se recomienda que Cluster 0 mantenga sus estrategias actuales, que Cluster 1 evalúe sus variabilidades y que Alfin Banco diversifique sus fuentes de ingresos para mitigar riesgos.")
+            st.text("""En la evolución de Ingresos Financieros Anualizados / Activo Productivo Promedio, el Cluster 0 
+            (B. BBVA Perú, B. de Crédito del Perú, etc.) muestra estabilidad y eficiencia en su gestión de ingresos. 
+            El Cluster 1 (B. Falabella Perú, B. Ripley, Mibanco) presenta mayor variabilidad, reflejando diferentes estrategias y niveles de riesgo.
+            Alfin Banco, en el Cluster 2, destaca con uno de los ratios más altos, lo que puede ser positivo, pero también implica un mayor riesgo
+            si no se gestiona adecuadamente. Se recomienda que Cluster 0 mantenga sus estrategias actuales, que Cluster 1 evalúe sus variabilidades
+            y que Alfin Banco diversifique sus fuentes de ingresos para mitigar riesgos.""")
 
         elif indicador_seleccionado == 'Créditos Directos / Personal':
-            st.text("En la evolución de Créditos Directos / Personal, el Cluster 0, representado por B. Santander Perú, muestra una tendencia estable, lo que indica una gestión eficiente de sus recursos humanos en relación con los créditos otorgados. En contraste, el Cluster 1, que incluye entidades como Alfin Banco, B. BBVA Perú y B. Falabella Perú, presenta mayor variabilidad en sus ratios, sugiriendo diferentes estrategias y niveles de eficiencia. Se recomienda que Cluster 0 mantenga sus estrategias actuales y que las entidades del Cluster 1 evalúen las causas de su variabilidad para mejorar la estabilidad y eficiencia en la gestión de créditos directos")    
+            st.text("""En la evolución de Créditos Directos / Personal, el Cluster 0, representado por B. Santander Perú, muestra una tendencia estable,
+            lo que indica una gestión eficiente de sus recursos humanos en relación con los créditos otorgados. En contraste, el Cluster 1, que incluye
+            entidades como Alfin Banco, B. BBVA Perú y B. Falabella Perú, presenta mayor variabilidad en sus ratios, sugiriendo diferentes estrategias
+            y niveles de eficiencia. Se recomienda que Cluster 0 mantenga sus estrategias actuales y que las entidades del Cluster 1 evalúen las causas
+            de su variabilidad para mejorar la estabilidad y eficiencia en la gestión de créditos directos.""")
 
         elif indicador_seleccionado == 'Depósitos / Número de Oficinas':
-            st.text("En la evolución de Depósitos / Número de Oficinas, el Cluster 0, que incluye a B. Santander Perú y Citibank, muestra una tendencia estable, indicando una gestión eficiente de sus recursos en relación con la expansión de oficinas. En cambio, el Cluster 1, que comprende entidades como Alfin Banco y B. Falabella Perú, presenta mayor variabilidad en sus ratios, sugiriendo diferencias en las estrategias y niveles de eficiencia. Se recomienda que el Cluster 0 mantenga sus estrategias actuales, mientras que el Cluster 1 debe evaluar las causas de su variabilidad para mejorar la estabilidad y eficiencia en la gestión de depósitos.")  
+            st.text("""En la evolución de Depósitos / Número de Oficinas, el Cluster 0, que incluye a B. Santander Perú y Citibank, muestra una tendencia estable,
+            indicando una gestión eficiente de sus recursos en relación con la expansión de oficinas. En cambio, el Cluster 1, que comprende entidades como 
+            Alfin Banco y B. Falabella Perú, presenta mayor variabilidad en sus ratios, sugiriendo diferencias en las estrategias y niveles de eficiencia.
+            Se recomienda que el Cluster 0 mantenga sus estrategias actuales, mientras que el Cluster 1 debe evaluar las causas de su variabilidad
+            para mejorar la estabilidad y eficiencia en la gestión de depósitos.""")
 
         elif indicador_seleccionado == 'Utilidad Neta Anualizada / Patrimonio Promedio':
-            st.text("En la evolución de Utilidad Neta Anualizada / Patrimonio Promedio, el Cluster 0, que incluye a B. BBVA Perú, B. Falabella Perú y otras, muestra una tendencia estable con fluctuaciones menores, indicando una gestión eficiente de su patrimonio. Por otro lado, Alfin Banco en el Cluster 1 presenta mayor variabilidad en su ratio, lo que sugiere una mayor exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades del Cluster 0 mantengan sus estrategias actuales, mientras que Alfin Banco debe evaluar las causas de su variabilidad y ajustar sus estrategias para mejorar su estabilidad y eficiencia.")
+            st.text("""En la evolución de Utilidad Neta Anualizada / Patrimonio Promedio, el Cluster 0, que incluye a B. BBVA Perú, B. Falabella Perú y otras,
+            muestra una tendencia estable con fluctuaciones menores, indicando una gestión eficiente de su patrimonio. Por otro lado, Alfin Banco en el Cluster 1 
+            presenta mayor variabilidad en su ratio, lo que sugiere una mayor exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades 
+            del Cluster 0 mantengan sus estrategias actuales, mientras que Alfin Banco debe evaluar las causas de su variabilidad y ajustar sus estrategias 
+            para mejorar su estabilidad y eficiencia.""")
 
         elif indicador_seleccionado == 'Utilidad Neta Anualizada / Activo Promedio':
-            st,text("En la evolución de Utilidad Neta Anualizada / Activo Promedio, Alfin Banco, en el Cluster 0, muestra una tendencia estable, lo que indica una gestión eficiente y consistente de sus activos. En contraste, el Cluster 1, que incluye entidades como B. Ripley y B. Falabella Perú, presenta mayor variabilidad en sus ratios, sugiriendo diferencias en estrategias y niveles de eficiencia en la gestión de activos. Se recomienda que Alfin Banco mantenga sus estrategias actuales y que las entidades del Cluster 1 evalúen las causas de su variabilidad para mejorar su estabilidad y eficiencia.")   
+            st.text("""En la evolución de Utilidad Neta Anualizada / Activo Promedio, Alfin Banco, en el Cluster 0, muestra una tendencia estable, 
+            lo que indica una gestión eficiente y consistente de sus activos. En contraste, el Cluster 1, que incluye entidades como B. Ripley y B. Falabella Perú,
+            presenta mayor variabilidad en sus ratios, sugiriendo diferencias en estrategias y niveles de eficiencia en la gestión de activos.
+            Se recomienda que Alfin Banco mantenga sus estrategias actuales y que las entidades del Cluster 1 evalúen las causas de su variabilidad 
+            para mejorar su estabilidad y eficiencia.""")
 
         elif indicador_seleccionado == 'Caja y Bancos en ME / Obligaciones a la Vista':
-            st.text("En la evolución de Caja y Bancos en ME / Obligaciones a la Vista, las entidades del Cluster 0, que incluye a Alfin Banco y B. BBVA Perú, muestran una tendencia estable, lo que indica una gestión eficiente de sus recursos en moneda extranjera. Por otro lado, Mibanco, en el Cluster 1, presenta mayor variabilidad en su ratio, sugiriendo una posible exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades del Cluster 0 mantengan sus estrategias actuales, mientras que Mibanco debe evaluar las causas de su variabilidad para mejorar la estabilidad y eficiencia en la gestión de sus recursos.") 
+            st.text("""En la evolución de Caja y Bancos en ME / Obligaciones a la Vista, las entidades del Cluster 0, que incluye a Alfin Banco y B. BBVA Perú,
+            muestran una tendencia estable, lo que indica una gestión eficiente de sus recursos en moneda extranjera. Por otro lado, Mibanco, en el Cluster 1,
+            presenta mayor variabilidad en su ratio, sugiriendo una posible exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades
+            del Cluster 0 mantengan sus estrategias actuales, mientras que Mibanco debe evaluar las causas de su variabilidad para mejorar la estabilidad
+            y eficiencia en la gestión de sus recursos.""")
 
-        elif indicador_seleccionado == 'Ratio de Liquidez MN' :
-            st.text("En la evolución del Ratio de Liquidez MN, B. ICBC, del Cluster 0, muestra una tendencia estable, lo que indica una gestión eficiente de sus recursos líquidos. En contraste, el Cluster 1, que incluye a entidades como B. BBVA Perú y B. Falabella Perú, presenta mayor variabilidad en sus ratios de liquidez, sugiriendo diferencias en estrategias y niveles de eficiencia en la gestión de recursos. Se recomienda que B. ICBC mantenga sus estrategias actuales, mientras que las entidades del Cluster 1 deben evaluar las causas de su variabilidad y ajustar sus estrategias para mejorar la estabilidad y eficiencia en la gestión de recursos líquidos.")
+        elif indicador_seleccionado == 'Ratio de Liquidez MN':
+            st.text("""En la evolución del Ratio de Liquidez MN, B. ICBC, del Cluster 0, muestra una tendencia estable, lo que indica una gestión eficiente de sus recursos líquidos.
+            En contraste, el Cluster 1, que incluye a entidades como B. BBVA Perú y B. Falabella Perú, presenta mayor variabilidad en sus ratios de liquidez,
+            sugiriendo diferencias en estrategias y niveles de eficiencia en la gestión de recursos. Se recomienda que B. ICBC mantenga sus estrategias actuales,
+            mientras que las entidades del Cluster 1 deben evaluar las causas de su variabilidad y ajustar sus estrategias para mejorar la estabilidad
+            y eficiencia en la gestión de recursos líquidos.""")
 
-        elif indicador_seleccionado ==  'Ratio de Liquidez ME' :
-            st.text("En la evolución del Ratio de Liquidez ME, las entidades del Cluster 0, que incluyen a Alfin Banco y B. BBVA Perú, presentan una tendencia estable, lo que indica una gestión eficiente de sus recursos líquidos. En cambio, B. Ripley, del Cluster 1, muestra una mayor variabilidad en su ratio, sugiriendo una posible exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades del Cluster 0 mantengan sus estrategias actuales para asegurar esta estabilidad, mientras que B. Ripley debe evaluar las causas de su variabilidad y ajustar sus estrategias para mejorar la estabilidad y eficiencia en la gestión de sus recursos líquidos.") 
+        elif indicador_seleccionado == 'Ratio de Liquidez ME':
+            st.text("""En la evolución del Ratio de Liquidez ME, las entidades del Cluster 0, que incluyen a Alfin Banco y B. BBVA Perú, presentan una tendencia estable,
+            lo que indica una gestión eficiente de sus recursos líquidos. En cambio, B. Ripley, del Cluster 1, muestra una mayor variabilidad en su ratio,
+            sugiriendo una posible exposición a riesgos o cambios en su estrategia financiera. Se recomienda que las entidades del Cluster 0 mantengan sus estrategias actuales 
+            para asegurar esta estabilidad, mientras que B. Ripley debe evaluar las causas de su variabilidad y ajustar sus estrategias para mejorar la estabilidad 
+            y eficiencia en la gestión de sus recursos líquidos.""")
 
-        elif indicador_seleccionado == "Caja y Bancos MN / Obligaciones a la Vista MN":
-            st.text("En la evolución del Caja y Bancos MN / Obligaciones a la Vista MN, las entidades del Cluster 0, que incluyen a Alfin Banco y B. BBVA Perú, presentan una tendencia relativamente estable en sus ratios, indicando una gestión eficiente y consistente de sus recursos líquidos. No se dispone de datos para los Clusters 1 y 2, lo que limita las recomendaciones para esas entidades. Para el Cluster 0, se sugiere mantener las estrategias actuales que aseguran esta estabilidad y eficiencia.")    
+        elif indicador_seleccionado == 'Caja y Bancos MN / Obligaciones a la Vista MN':
+            st.text("""En la evolución de Caja y Bancos MN / Obligaciones a la Vista MN, las entidades del Cluster 0, que incluyen a Alfin Banco y B. BBVA Perú,
+            presentan una tendencia relativamente estable en sus ratios, indicando una gestión eficiente y consistente de sus recursos líquidos.
+            No se dispone de datos para los Clusters 1 y 2, lo que limita las recomendaciones para esas entidades. Para el Cluster 0, se sugiere mantener 
+            las estrategias actuales que aseguran esta estabilidad y eficiencia.""")
