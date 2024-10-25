@@ -47,15 +47,15 @@ Se analizaron un total de 20 indicadores, de los cuales se seleccionaron los 13 
 
 Para ejecutar este proyecto, necesitas tener instaladas las siguientes librerías:
 
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- imbalanced-learn
-- tensorflow
-- jinja2
-- streamlit
-- selenium
+pandas
+numpy
+plotly
+streamlit
+seaborn
+matplotlib
+selenium
+scikit-learn
+tslearn
 
 ## 📝 Descripción del Proceso
 
@@ -111,6 +111,13 @@ Se obtuvieron los siguientes resultados clave:
 
 ## 🌐 Aplicación Streamlit
 
-Interactúa con la aplicación de predicción de entidades bancarias accediendo al siguiente link de Streamlit.
+Interactúa con el Monitor del sistema financiero creado en Streamlit [Sistema de Monitoreo Bancario](https://monitor-banking-system-peru.streamlit.app/)
+
+---
+
+## 📊 Presentación
+
+Puedes ver la presentación del proyecto desarrollado en canvas [Presentación](https://www.canva.com/design/DAGUhHadgtg/P1zZo4In1ivdbjlOlVdNUA/edit?utm_content=DAGUhHadgtg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 
 
