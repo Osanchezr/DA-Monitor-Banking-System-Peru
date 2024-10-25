@@ -1,41 +1,44 @@
 # Monitoreo del Sector Bancario en Perú
 
 **Autor:** Oscar Paul Sanchez Riveros  
-[LinkedIn](https://www.linkedin.com/in/oscarpaulsanchezriveros/)
+[LinkedIn](https://www.linkedin.com/in/oscar-sanchez-riveros/)
 
 ---
 
 ## 📝 Descripción del Proyecto
 
-El objetivo de este proyecto es crear un sistema de monitoreo para el sector bancario en Perú a través de un análisis de indicadores financieros clave, como solvencia, calidad de activos, gestión y eficiencia, rentabilidad y liquidez, utilizando algoritmos de aprendizaje automático no supervisados. Los datos fueron extraídos mediante técnicas de web scraping desde la Superintendencia de Banca, Seguros y AFP (SBS), que publica información mensual en archivos Excel. Se recopilaron datos desde agosto de 2015 hasta agosto de 2024, cubriendo un período de 9 años.
+Este proyecto analiza el sector bancario en Perú mediante indicadores clave como **solvencia**, **calidad de activos**, **eficiencia**, **rentabilidad** y **liquidez**. Utilizando **machine learning no supervisado**, se busca agrupar entidades bancarias en función de la evolución de estos indicadores.
 
-El análisis se enfoca en clasificar a las entidades bancarias según la evolución temporal de sus indicadores, aplicando diferentes técnicas de clustering no supervisado, como K-Means (distancia euclidiana), K-Means con DTW (Dynamic Time Warping), y clustering basado en formas. Se evaluaron los modelos mediante el índice de silueta para medir la cohesión y separación de los clústeres.
+Se aplicaron técnicas como **K-Means** (distancia euclidiana y DTW) y **clustering basado en formas**, evaluando cada modelo con el **índice de silueta** para medir la cohesión y separación de los clústeres.
+
+Los datos fueron extraídos mediante **web scraping** desde la SBS, cubriendo un período de **9 años** (2015-2024), permitiendo identificar patrones de comportamiento diferencial y posibles alertas de riesgo.
 
 ---
 
 ## 📊 Dataset
 
 Los datos fueron extraídos de la SBS mediante archivos Excel que contienen indicadores financieros de las entidades bancarias en Perú. Estos archivos fueron transformados a un formato de base de datos para facilitar su procesamiento.
+[SBS - Datos](https://www.sbs.gob.pe/app/stats_net/stats/EstadisticaBoletinEstadistico.aspx?p=1#)
 
-El dataset final incluye los siguientes indicadores clave:
+El dataset final incluye los siguientes columnas: 
 
-- Solvencia
-- Calidad de Activos
-- Gestión y Eficiencia
-- Rentabilidad
-- Liquidez
+- `Fecha` : Contiene las fechas mensuales desde Agosto 2015 hasta Agosto 2024. (último reporte SBS)
+- `Tipo de indicador` : Contiene la clasificación de indicadores por Solvencia, Calidad de Activos, Eficiencia y Gestión, Rentabilidad y Liquidez. (5 clasificaciones)
+- `Indicador`: Contiene 20 indicadores especificos relacionados a los tipos de indicadores.
+- `Entidad`: Contiene 17 entidades del sistema bancario del Perú.
+- `Valor`: Contiene el valor del indicador por entidad y por fecha.
 
-Se analizaron un total de 19 indicadores, de los cuales se seleccionaron los 13 que mostraron un índice de silueta mayor a 0.7.
+Se analizaron un total de 20 indicadores, de los cuales se seleccionaron los 13 que mostraron un índice de silueta mayor a 0.7.
 
 ---
 
 ## 📂 Estructura del Proyecto
 
-- `data/`: Archivos Excel originales extraídos de la SBS.  
-- `scripts/`: Contiene los scripts de web scraping, transformación y limpieza de datos.  
-- `modelos/`: Carpeta con los modelos entrenados.  
-- `notebooks/`: Notebooks de Jupyter que documentan todo el proceso de análisis.  
-- `app.py`: Aplicación en Streamlit que permite visualizar los resultados y realizar predicciones.  
+- `data/`: /data_original/: Archivos Excel originales extraídos de la SBS.  /data_procesada/: data transformada y limpia
+- `scripts/`: Contiene archivo functions.py que involucran las funciones para web scraping, transformación, limpieza de datos, modelado de datos. 
+- `results/`: Carpeta con los resultados de los modelos, mejores modelos por indicadores y clusters para cada indicador.  
+- `notebooks/`: Notebooks de Jupyter main que documentan todo el proceso de análisis.  
+- `app/`: Aplicación en app_streamlit que permite visualizar los resultados y realizar predicciones , functions_streamlit: funciones aplicados en la app. 
 - `requirements.txt`: Archivo con las dependencias del proyecto.  
 
 ---
@@ -54,11 +57,6 @@ Para ejecutar este proyecto, necesitas tener instaladas las siguientes librería
 - streamlit
 - selenium
 
-Instala todas las dependencias con el siguiente comando:
-
-```bash
-pip install -r requirements.txt
-```
 ## 📝 Descripción del Proceso
 
 ### 1. Extracción de Datos
@@ -69,11 +67,15 @@ Se utilizó Selenium para automatizar el proceso de descarga de los archivos Exc
 - Entidad
 - Valor del Indicador
 
+![Data](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/data_image.JPG)
+
 ### 2. Transformación y Limpieza de Datos
 Los archivos Excel originales fueron convertidos a DataFrames, eliminando filas y columnas innecesarias, estandarizando los nombres de las entidades y formateando las fechas. También se excluyeron entidades con datos incompletos o valores extremos debido a su reciente entrada en el mercado, como Bank of China y B. BCI Perú.
 
 ### 3. Exploración de Datos
 Se verificó la ausencia de valores nulos y duplicados, se analizaron outliers y se identificaron comportamientos atípicos en algunas entidades. Se realizaron histogramas y gráficos de series temporales para visualizar la evolución de los indicadores.
+
+![Histogramas](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/histogramas.png)
 
 ### 4. Modelado
 Se probaron tres enfoques de clustering no supervisado:
@@ -87,9 +89,15 @@ Cada modelo fue evaluado con el índice de silueta para identificar el número �
 ### 5. Evaluación de Resultados
 Se obtuvieron los siguientes resultados clave:
 
+![mejoresmodelos](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/result_mejor_modelo.JPG)
+
 - **K-Means (distancia euclidiana)** fue el modelo que mejor se adaptó a la mayoría de los indicadores.
 - Entidades como **B. Alfin** y **B. ICBC** aparecieron consistentemente en clústeres minoritarios debido a fluctuaciones extremas en sus indicadores históricos.
 - El índice de silueta mostró una buena cohesión y separación entre clústeres, con excepción del indicador *Pasivo Total / Capital Social y Reservas*.
+
+![grafico](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/resul_evol.JPG)
+
+![grafico](https://github.com/Osanchezr/DA-Monitor-Banking-System-Peru/blob/d39855626b0356fe693ba2849deee8ae06daa6da/images/resul_evol2.JPG)
 
 ---
 
