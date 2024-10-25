@@ -869,6 +869,7 @@ def graficar_resultados(df_kpi_bank, resultado_combinado, nuevos_bancos, indicad
 
     # Mostrar el gráfico con todos los indicadores
     fig.show()
+    return fig
 
 
 
