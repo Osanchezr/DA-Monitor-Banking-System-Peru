@@ -17,10 +17,10 @@ def pagina_introduccion():
     
     with col1:
         
-        st.image("C:/Users/osanc/Documents/GitHub/DA-Monitor-Banking-System-Peru/app/images_script/Portada_bancos.png", caption="Indicadores del Sistema Bancario del Perú", use_column_width=True)
+        st.image("app/images_script/Portada_bancos.png", caption="Indicadores del Sistema Bancario del Perú", use_column_width=True)
     
     
-        st.image("C:/Users/osanc/Documents/GitHub/DA-Monitor-Banking-System-Peru/app/images_script/Banca.png", 
+        st.image("app/images_script/Banca.png", 
                 caption="Bancos", use_column_width=True)
     with col2:
         st.write("""
@@ -178,8 +178,8 @@ def main():
     pagina_seleccionada = st.sidebar.radio('Selecciona una página', opciones_pagina)
 
     # Cargar los datos
-    df = load_data("C:/Users/osanc/Documents/GitHub/DA-Monitor-Banking-System-Peru/data/data_procesada/data_kpi_procesada.csv")
-    resultado_combinado = pd.read_csv("C:/Users/osanc/Documents/GitHub/DA-Monitor-Banking-System-Peru/results/clusters.csv")
+    df = load_data("data/data_procesada/data_kpi_procesada.csv")
+    resultado_combinado = pd.read_csv("results/clusters.csv")
 
     # Filtrar los datos según las entidades seleccionadas (FILTRO ÚNICO)
     entidades_seleccionadas = sidebar_filtros(df)
