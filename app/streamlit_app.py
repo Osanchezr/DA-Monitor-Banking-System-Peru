@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+import sys 
+import os 
+sys.path.append(os.path.abspath("..")) 
 from streamlit_functions import load_data, filtrar_datos, calcular_variacion_anual, grafico_barras, grafico_evolutivo, sidebar_filtros,color_neutro_por_variacion, pagina_analisis_clusters
 
 def pagina_introduccion():
@@ -178,8 +181,16 @@ def main():
     pagina_seleccionada = st.sidebar.radio('Selecciona una página', opciones_pagina)
 
     # Cargar los datos
-    df = load_data("data/data_procesada/data_kpi_procesada.csv")
-    resultado_combinado = pd.read_csv("results/clusters.csv")
+
+    # Construir la ruta relativa al archivo CSV
+    ruta_base = os.path.dirname(__file__)  # Carpeta donde está streamlit_app.py
+
+# Construir la ruta relativa al archivo CSV
+    ruta_csv = os.path.join(ruta_base, '..', 'data', 'data_procesada', 'data_kpi_procesada.csv')
+    df = load_data(ruta_csv)
+
+    ruta_combinado = os.path.join(ruta_base,'..', 'results',"clusters.csv")
+    resultado_combinado = pd.read_csv(ruta_combinado)
 
     # Filtrar los datos según las entidades seleccionadas (FILTRO ÚNICO)
     entidades_seleccionadas = sidebar_filtros(df)
