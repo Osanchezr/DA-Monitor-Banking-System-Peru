@@ -33831,3 +33831,343 @@ Fecha,Tipo de Indicador,Indicador,Entidad,Valor
 2023-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. ICBC,1.62
 2023-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Bank of China,1.55
 2023-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. BCI Perú,42.65
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. BBVA Perú,16.300498105775944
+2024-09-30,SOLVENCIA,Ratio de Capital Global,BANCOM,14.061446830825176
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. De Crédito del Perú,17.154236557892123
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. Pichincha,13.25056259433532
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. Interamericano de Finanzas,14.45457850409412
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Scotiabank Perú,15.923466264099789
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Citibank,32.22962973507022
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Interbank,15.667230766928885
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Mibanco,20.038432183782373
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. GNB,14.596671585977386
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. Falabella Perú,21.312367182379255
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. Santander Perú,19.414748047857312
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. Ripley,16.344562180698695
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Alfin Banco,16.79082445591377
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. ICBC,36.94493542500574
+2024-09-30,SOLVENCIA,Ratio de Capital Global,Bank of China,58.77442163814215
+2024-09-30,SOLVENCIA,Ratio de Capital Global,B. BCI Perú,33.59965310216745
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. BBVA Perú,8.49
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,BANCOM,4.32
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. De Crédito del Perú,8.5
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. Pichincha,7.5600000000000005
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. Interamericano de Finanzas,12.63
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Scotiabank Perú,5.98
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Citibank,11.23
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Interbank,8.58
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Mibanco,6.38
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. GNB,6.55
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. Falabella Perú,3.8000000000000003
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. Santander Perú,7.59
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. Ripley,3.5100000000000002
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Alfin Banco,4.2
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. ICBC,5.8
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,Bank of China,6.98
+2024-09-30,SOLVENCIA,Pasivo Total / Capital Social y Reservas,B. BCI Perú,3.36
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. BBVA Perú,4.2
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,BANCOM,4.67
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. De Crédito del Perú,4.13
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. Pichincha,6.96
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. Interamericano de Finanzas,4.13
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Scotiabank Perú,4.36
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Interbank,3.06
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Mibanco,7.0600000000000005
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. GNB,3.0500000000000003
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. Falabella Perú,4.3500000000000005
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. Santander Perú,5.12
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. Ripley,4.36
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Alfin Banco,4.09
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. ICBC,1.43
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados / Créditos Directos,B. BCI Perú,2.58
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. BBVA Perú,3.744299634939632
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,BANCOM,4.557024683133575
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. De Crédito del Perú,3.418864538988379
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. Pichincha,6.476304340499035
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. Interamericano de Finanzas,3.90442974704618
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Scotiabank Perú,3.523372040580961
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Interbank,2.7978791346162
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Mibanco,4.850940994074856
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. GNB,2.9315268331146145
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. Falabella Perú,4.052753833781218
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. Santander Perú,5.0366138212587535
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. Ripley,4.071552356486189
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Alfin Banco,3.744482699717358
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. ICBC,1.4317239001538247
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados con más de 90 días de atraso / Créditos Directos,B. BCI Perú,2.5791363897612123
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. BBVA Perú,2.44
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,BANCOM,3.46
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. De Crédito del Perú,1.84
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. Pichincha,3.13
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. Interamericano de Finanzas,1.12
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Scotiabank Perú,3.54
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Interbank,0.86
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Mibanco,0.88
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. GNB,0.85
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. Falabella Perú,1.8900000000000001
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. Santander Perú,0.8200000000000001
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. Ripley,2.05
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Alfin Banco,2.7800000000000002
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. ICBC,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Refinanciados y Reestructurados / Créditos Directos,B. BCI Perú,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. BBVA Perú,4.51
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,BANCOM,3.98
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. De Crédito del Perú,4.95
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. Pichincha,7.33
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. Interamericano de Finanzas,4.15
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Scotiabank Perú,4.37
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Interbank,3.5
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Mibanco,7.04
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. GNB,2.92
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. Falabella Perú,4.3500000000000005
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. Santander Perú,1.47
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. Ripley,4.36
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Alfin Banco,4.44
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. ICBC,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados MN / Créditos Directos MN,B. BCI Perú,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. BBVA Perú,3.34
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,BANCOM,12.74
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. De Crédito del Perú,2.37
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. Pichincha,5.64
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. Interamericano de Finanzas,4.11
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Scotiabank Perú,4.3100000000000005
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Interbank,1.72
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Mibanco,22.16
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. GNB,3.5
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. Falabella Perú,78.62
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. Santander Perú,7.0600000000000005
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. Ripley,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Alfin Banco,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. ICBC,1.6500000000000001
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Créditos Atrasados ME / Créditos Directos ME,B. BCI Perú,4.7
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. BBVA Perú,138.79
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,BANCOM,170.02
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. De Crédito del Perú,146.07
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. Pichincha,130.0
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. Interamericano de Finanzas,141.34
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Scotiabank Perú,170.83
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Citibank,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Interbank,141.98
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Mibanco,123.99000000000001
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. GNB,147.78
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. Falabella Perú,187.4
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. Santander Perú,97.67
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. Ripley,191.13
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Alfin Banco,183.68
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. ICBC,104.64
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,Bank of China,0.0
+2024-09-30,CALIDAD DE ACTIVOS,Provisiones / Créditos Atrasados,B. BCI Perú,104.24000000000001
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. BBVA Perú,2.751711738595018
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,BANCOM,4.096541232710401
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. De Crédito del Perú,3.298337635786043
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. Pichincha,3.123914393631726
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. Interamericano de Finanzas,1.7308033416415451
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Scotiabank Perú,2.466831414915699
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Citibank,2.897258719864565
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Interbank,2.5484178666283643
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Mibanco,7.566439765127505
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. GNB,1.9695860244467587
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. Falabella Perú,12.709322844337015
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. Santander Perú,2.0475546582893145
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. Ripley,14.248323958857432
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Alfin Banco,10.948210268214423
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. ICBC,1.1219783511999115
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,Bank of China,1.0567627311768888
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Administración Anualizados / Activo Productivo Promedio,B. BCI Perú,2.906767401795744
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. BBVA Perú,37.60686116536831
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,BANCOM,54.931617565820865
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. De Crédito del Perú,37.20364829656281
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. Pichincha,44.656511384294426
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. Interamericano de Finanzas,44.43281554804769
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Scotiabank Perú,42.389277543349344
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Citibank,26.00041758944708
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Interbank,40.27397141371197
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Mibanco,51.37237046872678
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. GNB,70.25232222243037
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. Falabella Perú,44.57829239550128
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. Santander Perú,31.876907780120806
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. Ripley,52.40961442737433
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Alfin Banco,47.123602419792725
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. ICBC,36.50288160415213
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,Bank of China,32.68695723288481
+2024-09-30,EFICIENCIA Y GESTIÓN,Gastos de Operación / Margen Financiero Total,B. BCI Perú,67.66385635706628
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. BBVA Perú,83.46952221570724
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,BANCOM,93.49075747822836
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. De Crédito del Perú,80.88560590389906
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. Pichincha,75.84369603590996
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. Interamericano de Finanzas,88.33579998198911
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Scotiabank Perú,85.12505499142111
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Citibank,75.62288221958845
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Interbank,84.69266287157221
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Mibanco,96.39575871141273
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. GNB,95.85716725352671
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. Falabella Perú,78.79148465244987
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. Santander Perú,84.83951614939897
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. Ripley,75.95704386477942
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Alfin Banco,85.8635597070108
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. ICBC,86.38561913956904
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,Bank of China,86.63950186821171
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros / Ingresos Totales,B. BCI Perú,81.62898824389818
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. BBVA Perú,9.604465711961868
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,BANCOM,12.477220924587936
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. De Crédito del Perú,9.472048338281578
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. Pichincha,11.015623901618532
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. Interamericano de Finanzas,8.384846409958298
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Scotiabank Perú,8.866816406087008
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Citibank,10.05607988571752
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Interbank,9.907081875948927
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Mibanco,20.673455466442352
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. GNB,8.146763307224315
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. Falabella Perú,29.79688432219622
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. Santander Perú,9.70764491079779
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. Ripley,27.109519202184345
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Alfin Banco,28.141769559087
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. ICBC,6.263519246212577
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,Bank of China,4.998146358233529
+2024-09-30,EFICIENCIA Y GESTIÓN,Ingresos Financieros Anualizados / Activo Productivo Promedio,B. BCI Perú,7.1161107651658675
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. BBVA Perú,10099.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,BANCOM,2332.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. De Crédito del Perú,4658.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. Pichincha,6494.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. Interamericano de Finanzas,9750.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Scotiabank Perú,8419.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Citibank,6979.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Interbank,7461.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Mibanco,1182.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. GNB,7015.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. Falabella Perú,2100.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. Santander Perú,23256.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. Ripley,1046.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Alfin Banco,745.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. ICBC,15318.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,Bank of China,5701.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Créditos Directos / Personal,B. BCI Perú,17973.0
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. BBVA Perú,255127.8037755102
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,BANCOM,64405.169956521735
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. De Crédito del Perú,426730.7915980066
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. Pichincha,196406.7147073171
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. Interamericano de Finanzas,268426.35835483874
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Scotiabank Perú,280022.0664875
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Citibank,6375740.897
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Interbank,337953.8508533333
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Mibanco,37138.70218596491
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. GNB,375032.34263636364
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. Falabella Perú,58379.48387755102
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. Santander Perú,6475432.071
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. Ripley,40906.771
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Alfin Banco,23504.5905
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. ICBC,2451895.261
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,Bank of China,1824280.083
+2024-09-30,EFICIENCIA Y GESTIÓN,Depósitos / Número de Oficinas,B. BCI Perú,1296084.559
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. BBVA Perú,13.849240927938917
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,BANCOM,1.446282569520377
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. De Crédito del Perú,21.384577685315563
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. Pichincha,-3.7738716014644242
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. Interamericano de Finanzas,10.338599914760385
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Scotiabank Perú,4.791971307518809
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Citibank,33.80663954603581
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Interbank,9.716888201374688
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Mibanco,9.916688916747807
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. GNB,5.341825097400847
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. Falabella Perú,3.847188446662053
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. Santander Perú,18.166201914736696
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. Ripley,-13.635341272670424
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Alfin Banco,3.2309939466983852
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. ICBC,8.99627205616843
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,Bank of China,14.104480926970012
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Patrimonio Promedio,B. BCI Perú,1.1386426623972488
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. BBVA Perú,1.5999541158775104
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,BANCOM,0.25903299653634154
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. De Crédito del Perú,2.6838644758662884
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. Pichincha,-0.3926215915897873
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. Interamericano de Finanzas,0.8342841199481883
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Scotiabank Perú,0.7742171840214217
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Citibank,4.69779712460429
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Interbank,1.0572185426995202
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Mibanco,1.5840399064511057
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. GNB,0.7342172846938712
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. Falabella Perú,0.7732685770057706
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. Santander Perú,2.14665885915498
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. Ripley,-2.596890663135448
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Alfin Banco,0.31714965224196645
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. ICBC,1.6040807971337026
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,Bank of China,1.7691667185404283
+2024-09-30,RENTABILIDAD,Utilidad Neta Anualizada / Activo Promedio,B. BCI Perú,0.3566692919454992
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. BBVA Perú,28.22
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,BANCOM,20.490000000000002
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. De Crédito del Perú,31.68
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. Pichincha,34.62
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. Interamericano de Finanzas,41.56
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Scotiabank Perú,27.03
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Citibank,94.64
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Interbank,30.63
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Mibanco,28.17
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. GNB,42.01
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. Falabella Perú,31.560000000000002
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. Santander Perú,42.34
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. Ripley,35.06
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Alfin Banco,45.730000000000004
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. ICBC,203.69
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,Bank of China,264.62
+2024-09-30,LIQUIDEZ,Ratio de Liquidez MN,B. BCI Perú,57.81
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. BBVA Perú,53.71
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,BANCOM,64.73
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. De Crédito del Perú,53.4
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. Pichincha,46.910000000000004
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. Interamericano de Finanzas,45.660000000000004
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Scotiabank Perú,55.36
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Citibank,87.51
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Interbank,43.550000000000004
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Mibanco,141.78
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. GNB,49.35
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. Falabella Perú,77.89
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. Santander Perú,49.11
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. Ripley,696.3100000000001
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Alfin Banco,68.5
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. ICBC,63.77
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,Bank of China,93.93
+2024-09-30,LIQUIDEZ,Ratio de Liquidez ME,B. BCI Perú,81.11
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. BBVA Perú,0.25
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,BANCOM,0.9
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. De Crédito del Perú,0.11
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. Pichincha,2.09
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. Interamericano de Finanzas,0.16
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Scotiabank Perú,0.09
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Citibank,0.37
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Interbank,0.49
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Mibanco,51.1
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. GNB,0.32
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. Falabella Perú,0.0
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. Santander Perú,0.5
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. Ripley,0.0
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Alfin Banco,23.53
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. ICBC,6.28
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,Bank of China,1.19
+2024-09-30,LIQUIDEZ,Caja y Bancos MN / Obligaciones a la Vista MN,B. BCI Perú,0.55
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. BBVA Perú,0.78
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,BANCOM,5.98
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. De Crédito del Perú,1.72
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. Pichincha,4.3500000000000005
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. Interamericano de Finanzas,2.33
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Scotiabank Perú,1.6300000000000001
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Citibank,0.7000000000000001
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Interbank,2.31
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Mibanco,208.44
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. GNB,17.43
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. Falabella Perú,0.0
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. Santander Perú,1.04
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. Ripley,0.0
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Alfin Banco,1.79
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. ICBC,6.5200000000000005
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,Bank of China,3.27
+2024-09-30,LIQUIDEZ,Caja y Bancos en ME / Obligaciones a la Vista ME,B. BCI Perú,3.6

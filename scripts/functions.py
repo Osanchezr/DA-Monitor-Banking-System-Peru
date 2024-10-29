@@ -69,7 +69,7 @@ def scrape_and_download_excels(chrome_driver_path, url, output_folder):
     # Definimos los meses válidos desde agosto 2015 hasta agosto 2024
     meses_validos = {
         2015: range(8, 13),  # Desde agosto 2015
-        2024: range(1, 9),   # Hasta agosto 2024
+        2024: range(1, 10),   # Hasta agosto 2024
     }
 
     # Llenamos los meses para los años intermedios (2016-2023)

@@ -1,16 +1,16 @@
 Entidad,Ratio de Capital Global,Créditos Atrasados MN / Créditos Directos MN,Créditos Atrasados ME / Créditos Directos ME,Gastos de Administración Anualizados / Activo Productivo Promedio,Gastos de Operación / Margen Financiero Total,Ingresos Financieros Anualizados / Activo Productivo Promedio,Créditos Directos / Personal,Depósitos / Número de Oficinas,Utilidad Neta Anualizada / Patrimonio Promedio,Utilidad Neta Anualizada / Activo Promedio,Ratio de Liquidez MN,Ratio de Liquidez ME,Caja y Bancos MN / Obligaciones a la Vista MN,Caja y Bancos en ME / Obligaciones a la Vista ME
-Alfin Banco,1,1,0,1,1,2,1,1,1,0,1,0,1,0
-B. BBVA Perú,1,1,0,0,0,0,1,1,0,1,1,0,0,0
-B. De Crédito del Perú,1,1,0,0,0,0,1,1,0,1,1,0,0,0
-B. Falabella Perú,1,1,1,0,0,1,1,1,0,1,1,0,0,0
-B. GNB,1,1,0,0,0,0,1,1,0,1,1,0,0,0
-B. ICBC,0,0,0,0,0,0,1,1,0,1,0,0,0,0
-B. Interamericano de Finanzas,1,1,0,0,0,0,1,1,0,1,1,0,0,0
-B. Pichincha,1,1,0,0,0,0,1,1,0,1,1,0,0,0
+Alfin Banco,1,1,0,1,1,2,1,1,1,0,1,1,1,0
+B. BBVA Perú,1,1,0,0,0,0,1,1,0,1,1,1,0,0
+B. De Crédito del Perú,1,1,0,0,0,0,1,1,0,1,1,1,0,0
+B. Falabella Perú,1,1,1,0,0,1,1,1,0,1,1,1,0,0
+B. GNB,1,1,0,0,0,0,1,1,0,1,1,1,0,0
+B. ICBC,0,0,0,0,0,0,1,1,0,1,0,1,0,0
+B. Interamericano de Finanzas,1,1,0,0,0,0,1,1,0,1,1,1,0,0
+B. Pichincha,1,1,0,0,0,0,1,1,0,1,1,1,0,0
 B. Ripley,1,1,0,0,0,1,1,1,0,1,1,1,0,0
-B. Santander Perú,1,1,0,0,0,0,0,0,0,1,1,0,0,0
-BANCOM,1,1,0,0,0,0,1,1,0,1,1,0,0,0
-Citibank,1,1,0,0,0,0,1,0,0,1,1,0,0,0
-Interbank,1,1,0,0,0,0,1,1,0,1,1,0,0,0
+B. Santander Perú,1,1,0,0,0,0,0,0,0,1,1,1,0,0
+BANCOM,1,1,0,0,0,0,1,1,0,1,1,1,0,0
+Citibank,1,1,0,0,0,0,1,0,0,1,1,1,0,0
+Interbank,1,1,0,0,0,0,1,1,0,1,1,1,0,0
 Mibanco,1,1,1,0,0,1,1,1,0,1,1,0,0,1
-Scotiabank Perú,1,1,0,0,0,0,1,1,0,1,1,0,0,0
+Scotiabank Perú,1,1,0,0,0,0,1,1,0,1,1,1,0,0

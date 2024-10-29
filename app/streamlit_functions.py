@@ -37,15 +37,15 @@ def color_neutro_por_variacion(variacion):
 
 # Calcular la variación anual
 def calcular_variacion_anual(df, indicador):
-    df_2024 = df[df['Fecha'].dt.strftime('%Y-%m') == '2024-08'][['Entidad', 'Valor']].rename(columns={'Valor': 'Ago-2024'})
-    df_2023 = df[df['Fecha'].dt.strftime('%Y-%m') == '2023-08'][['Entidad', 'Valor']].rename(columns={'Valor': 'Ago-2023'})
+    df_2024 = df[df['Fecha'].dt.strftime('%Y-%m') == '2024-09'][['Entidad', 'Valor']].rename(columns={'Valor': 'Set-2024'})
+    df_2023 = df[df['Fecha'].dt.strftime('%Y-%m') == '2023-09'][['Entidad', 'Valor']].rename(columns={'Valor': 'Set-2023'})
     df_variacion = pd.merge(df_2024, df_2023, on='Entidad', how='outer')  # Mantener todas las entidades
 
     # Calcular la variación anual
-    df_variacion['Var-Anual'] = (df_variacion['Ago-2024'] - df_variacion['Ago-2023']) / df_variacion['Ago-2023'] * 100
+    df_variacion['Var-Anual'] = (df_variacion['Set-2024'] - df_variacion['Set-2023']) / df_variacion['Set-2023'] * 100
 
     # Redondear los valores a 2 decimales
-    df_variacion[['Ago-2024', 'Ago-2023']] = df_variacion[['Ago-2024', 'Ago-2023']].round(2)
+    df_variacion[['Set-2024', 'Set-2023']] = df_variacion[['Set-2024', 'Set-2023']].round(2)
     df_variacion['Var-Anual'] = df_variacion['Var-Anual'].round(2)
 
     # Reemplazar valores NaN o Inf en la columna Var-Anual con "No Definido"
@@ -61,22 +61,22 @@ def calcular_variacion_anual(df, indicador):
     df_variacion['Color'] = df_variacion['Var-Anual'].apply(color_neutro_por_variacion)
 
     # Eliminar la columna de orden antes de mostrar la tabla
-    df_variacion = df_variacion[['Entidad', 'Ago-2023', 'Ago-2024', 'Var-Anual']]
+    df_variacion = df_variacion[['Entidad', 'Set-2023', 'Set-2024', 'Var-Anual']]
 
     return df_variacion
 
 # Gráfico de barras por indicador (con barras horizontales y colores)
 def grafico_barras(df, indicador):
     # Ordenar por el valor de 2024 de mayor a menor
-    df = df.sort_values(by='Ago-2024', ascending=True)
+    df = df.sort_values(by='Set-2024', ascending=True)
     
     # Asignar colores a las barras, rojo para valores negativos
-    colores = ['red' if x < 0 else 'blue' for x in df['Ago-2024']]
+    colores = ['red' if x < 0 else 'blue' for x in df['Set-2024']]
     
     fig = px.bar(df, 
-                 x='Ago-2024', y='Entidad', 
+                 x='Set-2024', y='Entidad', 
                  orientation='h',  # Barras horizontales
-                 text='Ago-2024', 
+                 text='Set-2024', 
                  color_discrete_sequence=colores, 
                  height=400)  # Aumentar altura
 
@@ -313,3 +313,5 @@ def pagina_analisis_clusters(df_kpi_bank, resultado_combinado):
             presentan una tendencia relativamente estable en sus ratios, indicando una gestión eficiente y consistente de sus recursos líquidos.
             No se dispone de datos para los Clusters 1 y 2, lo que limita las recomendaciones para esas entidades. Para el Cluster 0, se sugiere mantener 
             las estrategias actuales que aseguran esta estabilidad y eficiencia.""")
+
+

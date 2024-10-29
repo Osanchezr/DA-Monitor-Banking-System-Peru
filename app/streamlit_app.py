@@ -6,7 +6,7 @@ def pagina_introduccion():
     # Titulo
     st.markdown("""
         <h1 style='text-align: center; color: #2E86C1; margin-bottom: 0;'>Sistema de monitoreo bancario del Perú</h1>
-        <h3 style='text-align: center; color: #2E86C1; margin-top: 0;'>Ago 2015 - Ago 2024</h3>
+        <h3 style='text-align: center; color: #2E86C1; margin-top: 0;'>Ago 2015 - Set 2024</h3>
     """, unsafe_allow_html=True)
     
     # Subtítulo
@@ -24,7 +24,7 @@ def pagina_introduccion():
                 caption="Bancos", use_column_width=True)
     with col2:
         st.write("""
-        **Este análisis se basa en datos oficiales del sistema bancario peruano, proporcionados por la** **Superintendencia de Banca, Seguros y AFP (SBS)** **del Perú. El objetivo principal es evaluar de manera exhaustiva la evolución y desempeño de las entidades bancarias a lo largo de un período de 9 años (agosto 2015 - agosto 2024).**
+        **Este análisis se basa en datos oficiales del sistema bancario peruano, proporcionados por la** **Superintendencia de Banca, Seguros y AFP (SBS)** **del Perú. El objetivo principal es evaluar de manera exhaustiva la evolución y desempeño de las entidades bancarias a lo largo de un período de 9 años (agosto 2015 - septiembre 2024).**
 
         El reporte abarca múltiples aspectos financieros clave, incluyendo:
 
@@ -147,8 +147,8 @@ def pagina_tipo_indicador(df, tipo_indicador):
                 lambda val: f'background-color: {color_neutro_por_variacion(val)}' if isinstance(val, (int, float)) else '',
                 subset=['Var-Anual']
             ).format({
-                'Ago-2023': '{:.2f}', 
-                'Ago-2024': '{:.2f}', 
+                'Set-2023': '{:.2f}', 
+                'Set-2024': '{:.2f}', 
                 'Var-Anual': lambda x: '{:.2f}'.format(x) if isinstance(x, (int, float)) else x
             }))
 
@@ -158,7 +158,7 @@ def pagina_tipo_indicador(df, tipo_indicador):
 
         # Mostrar gráfico de barras (ordenado y con colores)
         with col2:
-            st.markdown(f"####  Comparativo Ago-2024")
+            st.markdown(f"####  Comparativo Set-2024")
             fig_barras = grafico_barras(df_variacion, indicador)
             
             # Actualizamos el gráfico para que tenga la misma altura que la tabla
