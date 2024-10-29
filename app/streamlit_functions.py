@@ -89,13 +89,26 @@ def grafico_barras(df, indicador):
 def grafico_evolutivo(df, indicador):
     df_pivot = df.pivot_table(index='Fecha', columns='Entidad', values='Valor').reset_index()
     df_pivot['Fecha'] = pd.to_datetime(df_pivot['Fecha'])
-    
+
+    # Obtener los límites de las fechas
+    min_fecha = df_pivot['Fecha'].min()
+    max_fecha = df_pivot['Fecha'].max()
+
+    # Crear el gráfico de líneas con rango de fechas
     fig = px.line(df_pivot, 
                   x='Fecha', 
                   y=df_pivot.columns[1:], 
                   title=f'Evolución de {indicador}', 
                   height=500,  # Aumentar la altura
                   width=3000)  # Aumentar el ancho
+
+    # Configurar el rango de fechas en el layout del gráfico
+    fig.update_xaxes(
+        range=[min_fecha, max_fecha],  # Rango de fechas inicial
+        title_text='Fecha',
+        rangeslider_visible=True  # Habilitar el slider de rango
+    )
+    
     return fig
 
 # Función para graficar resultados
